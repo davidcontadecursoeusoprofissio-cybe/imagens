@@ -1,7 +1,7 @@
 export default function Nav() {
     return (
         <nav className="bg-blue-400 h-12 text-white mt-14">
-            <h1 className="mt-3 ms-2">My App</h1>
+            <h1 className="mt-3 ms-5">My App</h1>
             <ul className="flex gap-4 text-[14px] ms-280 -mt-5">
             <li>Home</li>
             <li>Favoritos</li>
