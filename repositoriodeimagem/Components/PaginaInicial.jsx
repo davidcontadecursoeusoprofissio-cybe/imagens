@@ -4,13 +4,13 @@ import { useState } from "react"
 export default function PaginaInicial() {
   const [imagemprincipal] = useState([
     ["/Imagem/images (2).jpg", "/Imagem/images-removebg-preview (2).png"],
-    ["/Imagem/images (2).jpg", "/Imagem/images-removebg-preview (2).png"],
-    ["/Imagem/images (2).jpg", "/Imagem/images-removebg-preview (2).png"],
-    ["/Imagem/images (2).jpg", "/Imagem/images-removebg-preview (2).png"],
-    ["/Imagem/images (2).jpg", "/Imagem/images-removebg-preview (2).png"],
-    ["/Imagem/images (2).jpg", "/Imagem/images-removebg-preview (2).png"],
-    ["/Imagem/images (2).jpg", "/Imagem/images-removebg-preview (2).png"],
-    ["/Imagem/images (2).jpg", "/Imagem/images-removebg-preview (2).png"]
+    ["/Imagem/images (1.1).jpg", "/Imagem/images-removebg-preview (2).png"],
+    ["/Imagem/images (1).jpg", "/Imagem/images-removebg-preview (2).png"],
+    ["/Imagem/images (1.0).jpg", "/Imagem/images-removebg-preview (2).png"],
+    ["/Imagem/images (1.2).jpg", "/Imagem/images-removebg-preview (2).png"],
+    ["/Imagem/images (1.3).jpg", "/Imagem/images-removebg-preview (2).png"],
+    ["/Imagem/images (1.4).jpg", "/Imagem/images-removebg-preview (2).png"],
+    ["/Imagem/Hellspawn.webp", "/Imagem/images-removebg-preview (2).png"]
   ])
 
   return (
