@@ -3,6 +3,7 @@ import Image from "next/image";
 import Nav from '@/Components/Nav';
 import NavDesenho from '@/Components/NavDesenho';
 import PaginaInicial from '@/Components/PaginaInicial';
+import Marca from '@/Components/Marca';
 
 export default function Home() {
   return(
@@ -11,6 +12,7 @@ export default function Home() {
     <Nav />
     <NavDesenho/>
     <PaginaInicial/>
+    <Marca/>
   </>
   )
 }
