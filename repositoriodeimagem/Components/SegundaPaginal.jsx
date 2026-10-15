@@ -46,10 +46,10 @@ export default function PaginaInicial() {
               alt="Em cima" 
               style={{ 
                 position: "absolute", 
-                top: 20, 
+                top: 15, 
                 left: -9, 
-                width: "40%", 
-                height: "40%" 
+                width: "42%", 
+                height: "42%" 
               }} 
             />
             
