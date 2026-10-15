@@ -16,6 +16,7 @@ export default function PaginaInicial() {
       {imagemprincipal.map((parDeImagens, index) => {
         const imagemBaixo = parDeImagens[0]
         const imagemCima = parDeImagens[1]
+        const imagemCimadaCima =parDeImagens[2]
 
         return (
           /* O pai precisa ser relative para segurar a posição das imagens sobrepostas */
@@ -31,6 +32,17 @@ export default function PaginaInicial() {
             {/* Imagem que fica EM CIMA da outra */}
             <img 
               src={imagemCima} 
+              alt="Em cima" 
+              style={{ 
+                position: "absolute", 
+                top: 30, 
+                left: 0, 
+                width: "100%", 
+                height: "100%" 
+              }} 
+            />
+              <img 
+              src={imagemCimadaCima} 
               alt="Em cima" 
               style={{ 
                 position: "absolute", 
