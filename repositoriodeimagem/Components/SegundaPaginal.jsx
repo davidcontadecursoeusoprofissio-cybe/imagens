@@ -3,10 +3,10 @@ import { useState } from "react"
 
 export default function PaginaInicial() {
   const [imagemprincipal] = useState([
-    ["/Imagem/images (2).jpg", "/Imagem/images-removebg-preview (2).png"],
-    ["/Imagem/images (1.1).jpg", "/Imagem/images-removebg-preview (2).png"],
-    ["/Imagem/images (1).jpg", "/Imagem/images-removebg-preview (2).png"],
-    ["/Imagem/images (1.0).jpg", "/Imagem/images-removebg-preview (2).png"]
+    ["/Imagem/images (2).jpg", "/Imagem/images-removebg-preview (2).png","/Imagem/47848789-dourado-estrela-em-branco-fundo-vetor-removebg-preview.png"],
+    ["/Imagem/images (1.1).jpg", "/Imagem/images-removebg-preview (2).png","/Imagem/47848789-dourado-estrela-em-branco-fundo-vetor-removebg-preview.png"],
+    ["/Imagem/images (1).jpg", "/Imagem/images-removebg-preview (2).png","/Imagem/47848789-dourado-estrela-em-branco-fundo-vetor-removebg-preview.png"],
+    ["/Imagem/images (1.0).jpg", "/Imagem/images-removebg-preview (2).png","/Imagem/47848789-dourado-estrela-em-branco-fundo-vetor-removebg-preview.png"]
 
   ])
 
@@ -46,10 +46,10 @@ export default function PaginaInicial() {
               alt="Em cima" 
               style={{ 
                 position: "absolute", 
-                top: 30, 
-                left: 0, 
-                width: "100%", 
-                height: "100%" 
+                top: 20, 
+                left: -9, 
+                width: "40%", 
+                height: "40%" 
               }} 
             />
             
