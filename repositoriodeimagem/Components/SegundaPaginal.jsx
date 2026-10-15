@@ -5,8 +5,7 @@ export default function PaginaInicial() {
   const [imagemprincipal] = useState([
     ["/Imagem/images (2).jpg", "/Imagem/images-removebg-preview (2).png","/Imagem/47848789-dourado-estrela-em-branco-fundo-vetor-removebg-preview.png"],
     ["/Imagem/images (1.1).jpg", "/Imagem/images-removebg-preview (2).png","/Imagem/47848789-dourado-estrela-em-branco-fundo-vetor-removebg-preview.png"],
-    ["/Imagem/images (1).jpg", "/Imagem/images-removebg-preview (2).png","/Imagem/47848789-dourado-estrela-em-branco-fundo-vetor-removebg-preview.png"],
-    ["/Imagem/images (1.0).jpg", "/Imagem/images-removebg-preview (2).png","/Imagem/47848789-dourado-estrela-em-branco-fundo-vetor-removebg-preview.png"]
+    
 
   ])
 
@@ -20,13 +19,13 @@ export default function PaginaInicial() {
 
         return (
           /* O pai precisa ser relative para segurar a posição das imagens sobrepostas */
-          <div key={index} style={{ position: "relative", width: "300px", height: "300px" }}>
+          <div key={index} style={{ position: "relative", width: "300px", height: "300px" ,}}>
             
             {/* Imagem que fica no fundo */}
             <img 
               src={imagemBaixo} 
               alt="Fundo" 
-              style={{ width: "70%", height: "70%", display: "block", position: "absolute", left: 38, top: 80 }} 
+              style={{ width: "70%", height: "70%", display: "block", position: "absolute", left: 600, top: 80 }} 
             />
             
             {/* Imagem que fica EM CIMA da outra */}
@@ -36,7 +35,7 @@ export default function PaginaInicial() {
               style={{ 
                 position: "absolute", 
                 top: 30, 
-                left: 0, 
+                left: 550, 
                 width: "100%", 
                 height: "100%" 
               }} 
@@ -47,7 +46,7 @@ export default function PaginaInicial() {
               style={{ 
                 position: "absolute", 
                 top: 15, 
-                left: -9, 
+                left: 530, 
                 width: "42%", 
                 height: "42%" 
               }} 
@@ -56,6 +55,9 @@ export default function PaginaInicial() {
           </div>
         )
       })}
+        <div className="-mt-5 -ms-170">
+            <img src="/Imagem/fundo-da-placa-de-cortica_44272-3158.avif" alt=""  className="mt-12"/>
+        </div>
     </div>
   )
 }

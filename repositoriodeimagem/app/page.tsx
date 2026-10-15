@@ -12,7 +12,7 @@ export default function Home() {
   <>
     <Nav />
     <NavDesenho/>
-    <Fundo/>
+    
     <PaginaInicial/>
     <Marca/>
   </>
